@@ -140,7 +140,7 @@ app.post("/password/forgot", (req, res) => {
         success: "true",
         message: "email exists",
         payload: {
-          link: `http://ceeges-frontend.s3-website-us-east-1.amazonaws.com/resetPassword?token=${token}`
+          link: `https://ceegees.cibiaananth.in/resetPassword?token=${token}`
         }
       });
     }
